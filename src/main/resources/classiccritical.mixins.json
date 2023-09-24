@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "moe.mutsuki.classiccritical.mixin.core",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "refmap.json",
+  "mixins": [
+    "ForgeHooksMixin",
+    "PlayerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
